@@ -8,13 +8,9 @@ public class Hangman {
         return random.nextInt(number);
     }
 
-    public static String Update(char guess, String word) {
+    public static String Update(char guess, String word, String hiddenWord) {
         char[] characters = word.toCharArray();
-
-        for (char l : characters) {
-            if (l == guess) {
-            }
-        }
+        
     }
 
     public static void main(String[] args) {
@@ -39,7 +35,7 @@ public class Hangman {
 
             guessedChar = scanner.nextLine().charAt(0);
 
-            hiddenWord = Update(guessedChar, randomWord);
+            hiddenWord = Update(guessedChar, randomWord, hiddenWord);
         }
     }
 }
