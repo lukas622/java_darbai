@@ -8,15 +8,38 @@ public class Hangman {
         return random.nextInt(number);
     }
 
+    public static String Update(char guess, String word) {
+        char[] characters = word.toCharArray();
+
+        for (char l : characters) {
+            if (l == guess) {
+            }
+        }
+    }
+
     public static void main(String[] args) {
-        String[] words = {"polymorphism", "inheritance", "encapsulation", "jukebox", "strength", "quicksilver"};
+        String[] words = {"polymorphism", "inheritance"};
 
         String randomWord = words[RandomNumber(words.length-1)];
+
+        StringBuilder hiddenBuilder = new StringBuilder();
+
+        for (int i = 1; i < randomWord.length(); i++) {
+            hiddenBuilder.append("*");
+        }
+
+        String hiddenWord = hiddenBuilder.toString();
 
         Scanner scanner = new Scanner(System.in);
 
         char guessedChar;
 
+        while (!randomWord.contentEquals(hiddenBuilder)) {
+            System.out.print("(Guess) Enter a letter in word " + hiddenWord + " > ");
 
+            guessedChar = scanner.nextLine().charAt(0);
+
+            hiddenWord = Update(guessedChar, randomWord);
+        }
     }
 }
