@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="08_09.Agent" />
+        <module name="01_04.Greeting" />
+        <module name="AL_09.GreatestInList" />
+        <module name="03_08.CheckingTheAge" />
+        <module name="01_02.OnceUponATime" />
+        <module name="03_01.SpeedingTicket" />
+        <module name="08_07.Song" />
+        <module name="08_03.Door" />
+        <module name="AL_06.FirstAndLast" />
+        <module name="03_03.LargerThanOrEqualTo" />
+        <module name="01_03.Message" />
+        <module name="02_05.SecondsInADay" />
+        <module name="02_08.AverageOfThreeNumbers" />
+        <module name="05_02.Reprint" />
+        <module name="S_08.PersonalDetails" />
+        <module name="AL_12.SumOfAList" />
+        <module name="AL_17.RemoveLast" />
+        <module name="05_01.InAHoleInTheGround" />
+        <module name="AL_08.OnlyTheseNumbers" />
+        <module name="AL_11.IndexOfSmallest" />
+        <module name="03_05.OddOrEven" />
+        <module name="S_07.NameOfTheOldest" />
+        <module name="05_06.DivisibleByThree" />
+        <module name="AL_16.Sum" />
+        <module name="05_09.Summation" />
+        <module name="08_06.Debt" />
+        <module name="AL_10.IndexOf" />
+        <module name="AL_02.SecondPlusThird" />
+        <module name="03_10.GiftTax" />
+        <module name="S_02.LineByLine" />
+        <module name="05_14.AdvancedAstrology" />
+        <module name="08_05.DecreasingCounter" />
+        <module name="S_05.LastWords" />
+        <module name="02_06.SumOfThreeNumbers" />
+        <module name="05_03.FromOneToParameter" />
+        <module name="03_04.gradesAndPoints" />
+        <module name="05_07.NumberUno" />
+        <module name="AL_04.ListSize" />
+        <module name="S_06.AgeOfTheOldest" />
+        <module name="08_10.Multiplier" />
+        <module name="03_09.LeapYear" />
+        <module name="08_02.Whistle" />
+        <module name="AL_15.PrintInRange" />
+        <module name="05_05.Division" />
+        <module name="08_08.Gauge" />
+        <module name="AL_05.LastInList" />
+        <module name="03_06.Password" />
+        <module name="03_02.Positivity" />
+        <module name="S_04.FirstWords" />
+        <module name="08_04.Product" />
+        <module name="02_07.MultiplicationFormula" />
+        <module name="AL_14.OnTheList" />
+        <module name="01_05.Story" />
+        <module name="08_01.Room" />
+        <module name="08_12.PaymentCard" />
+        <module name="02_04.DifferentTypesOfInput" />
+        <module name="S_03.AVClub" />
+        <module name="08_11.Statistics" />
+        <module name="05_10.Smallest" />
+        <module name="05_04.FromParameterToOne" />
+        <module name="02_09.SimpleCalculator" />
+        <module name="02_01.VariousVariables" />
+        <module name="S_01.Login" />
+        <module name="02_03.DoubleInput" />
+        <module name="05_11.Greatest" />
+        <module name="AL_01.ThirdElement" />
+        <module name="02_02.IntegerInput" />
+        <module name="01_01.AdaLovelace" />
+        <module name="AL_07.RememberTheseNumbers" />
+        <module name="AL_13.AverageOfAList" />
+        <module name="AL_03.IndexOutOfBoundsException" />
+        <module name="05_12.Averaging" />
+        <module name="05_08.Word" />
+        <module name="03_07.Same" />
+        <module name="05_13.StarSign" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
