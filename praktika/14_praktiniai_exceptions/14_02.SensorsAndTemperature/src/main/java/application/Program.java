@@ -47,7 +47,8 @@ public class Program {
 //        System.out.println("Readings: " + helsinkiRegion.readings());
 
         AverageSensor ka = new AverageSensor();
-        ka.addSensor( new StandardSensor(4) );
-        ka.read();
+        ka.addSensor( new StandardSensor(3) );
+        ka.addSensor( new StandardSensor(7) );
+        System.out.println(ka.readings());
     }
 }
