@@ -57,14 +57,19 @@ public class Main {
             double toPay = product.getPrice();
             double payAmount = 0;
 
-            while (paid != toPay) {
+            while (paid < toPay) {
                 payAmount = Double.parseDouble(userNumericInput.nextLine());
 
                 if (payAmount != 0.1 && payAmount != 0.5 && payAmount != 1 && payAmount != 2) continue;
 
                 paid += payAmount;
-                System.out.println("You paid " + String.format("%.2f", paid) + " in total.\nYou still need to pay " + String.format("%.2f", toPay - paid));
+                System.out.println("You paid " + String.format("%.2f", paid) + " in total.\n");
+                if (paid < toPay) System.out.println("You still need to pay " + String.format("%.2f", toPay - paid));
             }
+
+            System.out.println("Here is your product: " + product.getName());
+
+            // Check if we need to give change and give it if we have to
         }
     }
 }

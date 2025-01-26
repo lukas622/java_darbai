@@ -16,4 +16,12 @@ public class CashRegister {
             System.out.println("Value: " + m.getValue() + ", Quantity: " + m.getQuantity());
         }
     }
+
+    public double calculateChange(double paid, double toPay) {
+        if (paid <= toPay) return 0;
+
+        double change = paid-toPay;
+
+        return change;
+    }
 }
