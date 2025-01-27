@@ -3,14 +3,15 @@ import lt.itakademija.exam.CurrencyConverter;
 import lt.itakademija.exam.CurrencyRatesProvider;
 import lt.itakademija.exam.test.BaseTest;
 
-public class CurrencyTest implements BaseTest {
+public class CurrencyTest extends BaseTest {
+
     @Override
     protected Bank createBank(CurrencyConverter currencyConverter) {
-        return null;
+        return new BankImpl(currencyConverter);
     }
 
     @Override
     protected CurrencyConverter createCurrencyConverter(CurrencyRatesProvider currencyRatesProvider) {
-        return null;
+        return new CurrencyConverterImpl(currencyRatesProvider);
     }
 }
